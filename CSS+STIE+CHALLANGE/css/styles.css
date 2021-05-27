@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    align-items: center;
+
+}
+
+
+.Heading1{
+    margin:0 auto 0 auto;
+    font-family: 'Rouge Script', cursive;
+    font-size: 90px;;
+   
+
+}
+
+.top-container{
+    background-color: #28b5b5;
+}
+
+
+.top-cloud{
+    position:relative;
+    left:500px;
+    top:100px;
+    
+    
+}
+
+.bottom-cloud{
+    position: relative;
+    right:500px;
+    top:200px;
+}
+
+.profile_pic{
+    border-radius: 50%;
+    
+}
+
+.Skill{
+    border-radius: 50%;
+}
+
+.middle-container{
+    background-color: #206a5d;
+}
+
+.bottom-container{
+    background-color: #206a5d;
+}

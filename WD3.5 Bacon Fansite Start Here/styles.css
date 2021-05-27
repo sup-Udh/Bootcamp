@@ -1,0 +1,34 @@
+/* h1{
+    color: red;
+    font-size: 200px;
+    
+}      */
+
+
+/* Usage of Class's in css */
+                                                    /* SELECTORS */
+
+                                                    
+img:hover{
+    background-color: gold;
+
+}
+
+.Image{
+    background-color: blue;
+}
+
+.image{
+    background-color: red;
+}
+
+#Heading{
+    color :  yellow;
+    font-size: 200px;
+}
+
+.Paragraph{
+    color: green;
+   
+
+}
