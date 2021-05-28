@@ -9,6 +9,20 @@ $(document).ready(function(){
 $("button").css("color" , "Blue");
 
 // Reteriving data with jquery 
-$("h1").css("font-size")
+$("h1").css("font-size");
+// adding class name
+$("h1").addClass("big-title");
+// Removing the class name 
+$("h1").removeClass("big-title");
 
-// This all need's to be pused to git hub : ) ok ig? this code is shit lol  lmaoo
+// Playing around with text
+$("h1").text("Byee") // intial text was "Hello" now the text was changed
+
+// Using the attribute setting / methods 
+
+console.log($("img").attr("src"));
+// we are looking inro the "src attribute"
+
+// Using the a element 
+
+console.log($("a").attr("href" , "https://www.udemy.com" ));
