@@ -11,4 +11,4 @@ $("button").css("color" , "Blue");
 // Reteriving data with jquery 
 $("h1").css("font-size")
 
-// This all need's to be pused to git hub : )
+// This all need's to be pused to git hub : ) ok ig? this code is shit lol  lmaoo
