@@ -26,3 +26,9 @@ console.log($("img").attr("src"));
 // Using the a element 
 
 console.log($("a").attr("href" , "https://www.udemy.com" ));
+
+// Event listner 
+
+$(document).keypress(function(event){
+    console.log(event.key)
+});
