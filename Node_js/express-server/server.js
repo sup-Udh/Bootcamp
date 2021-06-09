@@ -16,6 +16,9 @@ app.get("/" , function(request , response)  {
   
 
 });
+app.get("/contact" , function(req,res){
+    res.send("<h1>Welcome to the contact Name</h1>")
+})
 
 app.listen(3000, function(){
     console.log("😎  ✌ server is running on port 3000 ")
