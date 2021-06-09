@@ -7,6 +7,7 @@ const app = express();
 
 app.get("/" , function(request , response)  {
     // console.log(request); 
+    console.log("User has Requested the main page")
 
     response.send("<h1>hello world</h1>");
 
