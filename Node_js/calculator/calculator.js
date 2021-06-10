@@ -1,6 +1,8 @@
+const bodyParser = require("body-parser");
 const express = require("express")
 
 const app = express();
+app.use(bodyParser.urlencoded({extended : true}));
 
 app.get("/" , function (req,res){
     console.log("user requested for Main page")
@@ -10,6 +12,7 @@ app.get("/" , function (req,res){
 
 // Creating a Post channel 
 app.post("/" , function(req,res){
+    console.log(req.body)
     res.send("thx for sending that lolz");
 });
 
