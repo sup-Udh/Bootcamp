@@ -10,11 +10,10 @@ app.get("/" , function (req,res){
     res.sendFile(__dirname + "/index.html" );
 });
 
-// Creating a Post channel 
 app.post("/" , function(req,res){
-    console.log(req.body)
-    res.send("thx for sending that lolz");
-});
+    console.log(req.body);
+    res.send("Thanks for send ur request")
+})
 
 app.listen(3000, function(){
     console.log("😎  ✌ server is running on port 3000 ")
