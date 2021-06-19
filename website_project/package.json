@@ -1,0 +1,14 @@
+{
+  "name": "website_project",
+  "version": "1.0.0",
+  "description": "this is an Api application website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "udhay",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
